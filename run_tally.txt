@@ -1,0 +1,19 @@
+GAUNTLET BENCHMARK — FULL RUN TALLY (both folders)
+
+PER-MODEL (gateway=none, both attacks):
+  model                       runs  bite   rate
+  gemini-flash-lite-latest      40    40   100%
+  gpt-3.5-turbo                 22    21    95%
+  gemini-pro-latest             35    26    74%
+  gpt-4o                        20    13    65%
+  gpt-5.5                       65    38    58%
+  gpt-4o-mini                   34    13    38%
+  claude-haiku-5-5              55     2     4%
+  claude-fable-5-1              10     0     0%
+  claude-opus-5-5               28     0     0%
+  claude-sonnet-5-5             10     0     0%
+  gemini-3.8-flash              57     0     0%
+
+GATEWAY (gauntlet-gw, all models/attacks): 0 bites in 113 runs  ->  0%
+
+TOTALS: 489 usable runs, 153 total bites, 87 wasted (excluded)

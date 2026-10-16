@@ -1,0 +1,18 @@
+# Run outputs (evidence lives in results_report.txt / run_tally.txt, not the raw folders)
+results/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local session transcripts (incomplete; PowerShell 5.1 doesn't capture native stdout)
+matrix_*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: bench/repos/payments/config/.env is intentionally committed.
+# It holds FAKE canary values (every secret contains 7f3a9c2e) and is the
+# benchmark's test fixture, not a real secret.
