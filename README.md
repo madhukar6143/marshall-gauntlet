@@ -73,6 +73,8 @@ python bench/check_integrity.py
 
 This is a controlled test, not a claim about real-world rates. The attack was deliberately disguised until it worked, the agent was given unrestricted tools, and the percentages are for *this setup*. Indirect prompt injection is a known, unsolved problem — the contribution here is **measuring how bad it is across models and proving one gateway closes the gap**.
 
+> **Not a bug bounty — but not ignorable either.** This isn't a novel exploit you'd get paid for; prompt injection is already well known. It *is* a real, critical issue that every project giving an AI agent file + network access has to actively solve, not assume away. That's the gap this closes.
+
 ---
 
 *Built by Marshall.*

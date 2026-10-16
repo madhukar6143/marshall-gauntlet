@@ -16,3 +16,6 @@ Thumbs.db
 # NOTE: bench/repos/payments/config/.env is intentionally committed.
 # It holds FAKE canary values (every secret contains 7f3a9c2e) and is the
 # benchmark's test fixture, not a real secret.
+
+# raw timestamped screenshots (curated COMPARE-*/POST-* kept)
+screenshots/Screenshot *.png
