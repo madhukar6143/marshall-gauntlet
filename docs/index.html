@@ -99,6 +99,10 @@
   .tally .sub{color:var(--muted); font-size:11.5px}
   footer{margin-top:22px; color:var(--dim); font-size:11.5px; line-height:1.7; border-top:1px solid var(--edge); padding-top:14px}
   footer b{color:var(--muted)}
+  .credit{margin-top:14px; color:var(--muted); font-size:13px}
+  .credit b{color:var(--fg)}
+  .credit a{color:var(--accent); text-decoration:none; font-weight:700}
+  .credit a:hover{text-decoration:underline}
 
   /* real evidence */
   .evidence{margin-top:30px; border-top:1px solid var(--edge); padding-top:24px}
@@ -219,6 +223,7 @@
 
   <footer>
     <b>How it works.</b> The no-gateway side rolls a weighted coin per run set to this model's measured success rate; the marshall-gauntlet side runs the identical attack through the gateway, which blocks every run. Secrets shown are fake canaries; nothing contacts a real network — the arena is simulated from the real benchmark runs shown above, not live API calls.
+    <p class="credit">Built by <b>Marshall</b> &nbsp;·&nbsp; <a href="https://github.com/madhukar6143/marshall-gauntlet" target="_blank" rel="noopener">Code &amp; full write-up on GitHub &rarr;</a></p>
   </footer>
 </div>
 
